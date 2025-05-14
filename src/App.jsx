@@ -1,7 +1,6 @@
 
 
 import ProtectedRoute from './components/ProtectedRoute'
-import CreateBlog from './pages/CreateBlog'
 import Home from './pages/Home'
 import Login from './pages/Login'
 import Register from './pages/Register'
@@ -10,6 +9,7 @@ import SingleBlogPage from './pages/SingleBlogPage'
 import MyBlog from './pages/MyBlog'
 import EditBlog from './pages/EditBlog'
 import UserProfile from './pages/UserProfile'
+import CreateBlog from '../src/pages/Createblog'
 
 function App() {
 
