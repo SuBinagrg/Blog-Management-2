@@ -36,8 +36,13 @@ const Authprovider = ({children}) => {
         setToken(logintoken);
         setUser(userDetails);
     }
+
+    const logout = () =>{
+      setToken(null)
+      setUser(null)
+    }
   return (
-   <Authcontext.Provider value={{token,user,login}}>
+   <Authcontext.Provider value={{token,user,login,logout}}>
     {children}
    </Authcontext.Provider>
   )

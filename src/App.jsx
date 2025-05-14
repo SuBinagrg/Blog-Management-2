@@ -53,6 +53,7 @@ function App() {
           </ProtectedRoute>
          } />
         
+        
         <Route path='/signup' element={<Register />} />
         <Route path="/login" element={<Login/>} />
       </Routes>
